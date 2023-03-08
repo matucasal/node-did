@@ -1,0 +1,20 @@
+{
+  "name": "did",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@digitalbazaar/ed25519-verification-key-2020": "^4.1.0",
+    "@digitalbazaar/x25519-key-agreement-key-2020": "^3.0.1",
+    "crypto-ld": "^7.0.0",
+    "did-jwt": "^6.11.1",
+    "did-resolver": "^4.1.0",
+    "ethr-did-resolver": "^8.0.0"
+  },
+  "type": "module"
+}
