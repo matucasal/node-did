@@ -53,11 +53,13 @@ export function addPrefix(prefixToAdd, did) {
 
 const resolveDid = (did) => {
   const ethrResolver = ethr.getResolver(config);
+  console.log('ethrResolver', ethrResolver.ethr);
   const resolver = new Resolver({
     ...ethrResolver,
   });
+  
 
-  console.log("resolver created", resolver);
+  console.log("resolver created", resolver.registry);
 
   console.log('did to resolve', did);
 
